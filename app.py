@@ -9,9 +9,9 @@ https://dogscox-trivial-tech-blog.com/posts/streamlit_demo_iris_decisiontree/
 import numpy as np
 import pandas as pd 
 import streamlit as st
-import matplotlib.pyplot as plt 
-import japanize_matplotlib
-import seaborn as sns 
+# import matplotlib.pyplot as plt 
+# import japanize_matplotlib
+# import seaborn as sns 
 
 # ロゴの表示用
 from PIL import Image
@@ -20,8 +20,8 @@ from PIL import Image
 import random
 import copy
 
-sns.set()
-japanize_matplotlib.japanize()  # 日本語フォントの設定
+# sns.set()
+# japanize_matplotlib.japanize()  # 日本語フォントの設定
 
 # matplotlib / seaborn の日本語の文字化けを直す、汎用的かつ一番簡単な設定方法 | BOUL
 # https://boul.tech/mplsns-ja/
